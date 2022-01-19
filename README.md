@@ -41,23 +41,69 @@ O sistema possui um painel de controle onde é possível visualizar os principai
 * IDE VSCode
 * Padrão MVC
 
-## INSTALAÇÃO DO SISTEMA LOCAL
+## INSTALAÇÃO DO SISTEMA NA MÁQUINA LOCAL
 
+##### Antes de iniciar é necessário instalar o composer
+```sh
+https://getcomposer.org
+```
+
+
+##### Obter os fontes via Git
 ```sh
 git clone https://github.com/julioaguillar/controle-construcao-laravel8.git
 ```
+ou fazer download dos fontes para a máquina local
+```sh
+https://github.com/julioaguillar/controle-construcao-laravel8
+```
+Após baixar os fontes executar o terminal de comando, acessar a pasta raiz do projeto e executar os comandos abaixo
 
+
+##### 
+```sh
+composer update
+```
+
+
+##### Renomear o arquivo .env.example para .env
+Linux
+```sh
+mv .env.example .env
+```
+Windows
+```sh
+ren .env.example .env
+```
+
+
+##### Gerar a chave do aplicativo
+```sh
+php artisan key:generate
+```
+
+
+
+
+##### Criar as Tabelas no banco de Dados
 ```sh
 php artisan migrate
 ```
 
+
+##### 
 ```sh
 php artisan db:seed
 ```
+
+
+##### 
 ```sh
 php artisan serve
 ```
 
+
+##### 
 Acessar no broser: http://127.0.0.1:8000/
 
 
