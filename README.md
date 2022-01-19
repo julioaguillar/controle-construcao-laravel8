@@ -1,8 +1,9 @@
-# Projeto para estudo, desenvolvido em Laravel 8 utilizando banco de dados SQLite
+# Sistema Web desenvolvido em Laravel 8 utilizando banco de dados SQLite
 
-## Aplicação Web para controle de gastos em uma construção
+### Desenvolvido para aplicar os conceitos teóricos adquiridos em cursos de desenvolvimento web com Larável
+##### Sistema Web para controle de gastos em uma construção
 
-## Requisitos para rodar a aplicação
+## Requisitos do sistema
 
 * Laravel 8
 * Composer 2.1.8
