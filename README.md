@@ -3,33 +3,30 @@
     <img src="https://laravel.com/img/logotype.min.svg" alt="Laravel" width="114" height="29">
 </p>
 
-<p align="center">
 # Sistema Web desenvolvido em Laravel 8 utilizando banco de dados SQLite
-</p>
 
 ### Desenvolvido para aplicar os conceitos teóricos adquiridos em cursos de desenvolvimento web com Laravel
-##### Sistema Web para controle de gastos em uma construção
 
 ## INFORMAÇÕES DO SISTEMA
 
-### Sistema Web utilizado para controle de gastos em uma obra da construção civil
+Sistema Web utilizado para controle de gastos em uma obra da construção civil
 
-### O sistema possui um painel de controle onde é possível visualizar os principais dados da obra, o gasto real, gasto previsto, andamento da obra e a previsão de término. E também possui as seguintes funções:
+O sistema possui um painel de controle onde é possível visualizar os principais dados da obra, o gasto real, gasto previsto, andamento da obra e a previsão de término. E também possui as seguintes funções:
 
-### CADASTROS
-##### * Obra
-##### * Produtos/Mercadorias
-##### * Serviços
-##### * Fornecedores
-##### * Prestadores de Serviço
+##### CADASTROS
+- Obra
+- Produtos/Mercadorias
+- Serviços
+- Fornecedores
+- Prestadores de Serviço
 
-### LANÇAMENTOS
-##### * Compra de Produtos/Mercadorias
-##### * Serviços Tomados
+##### LANÇAMENTOS
+- Compra de Produtos/Mercadorias
+- Serviços Tomados
 
-### RELATÓRIOS
-##### * Compras de Produtos/Mercadorias (Em desenvolvimento)
-##### * Serviços Tomados
+##### RELATÓRIOS
+- Compras de Produtos/Mercadorias (Em desenvolvimento)
+- Serviços Tomados
 
 ## LINGUAGENS E TECNOLOGIAS UTILIZADAS
 
