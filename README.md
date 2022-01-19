@@ -59,12 +59,10 @@ https://github.com/julioaguillar/controle-construcao-laravel8
 ```
 Após baixar os fontes executar o terminal de comando, acessar a pasta raiz do projeto e executar os comandos abaixo
 
-
 ##### 
 ```sh
 composer update
 ```
-
 
 ##### Renomear o arquivo .env.example para .env
 Linux
@@ -76,36 +74,30 @@ Windows
 ren .env.example .env
 ```
 
-
 ##### Gerar a chave do aplicativo
 ```sh
 php artisan key:generate
 ```
-
 
 ##### Criar as Tabelas no banco de Dados
 ```sh
 php artisan migrate
 ```
 
-
-##### Popula as tabelas do Banco de Dados
+##### Popular as tabelas do Banco de Dados
 ```sh
 php artisan db:seed
 ```
 
-
-##### Inicia o servidor embutido do PHP usado pelo Laravel
+##### Iniciar o servidor embutido do PHP usado pelo Laravel
 ```sh
 php artisan serve
 ```
-
 
 ##### Acessar no browser
 ```sh
 http://127.0.0.1:8000
 ```
-
 
 ## E-MAIL E SENHA PADRÃO
 
