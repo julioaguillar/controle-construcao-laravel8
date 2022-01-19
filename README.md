@@ -83,28 +83,28 @@ php artisan key:generate
 ```
 
 
-
-
 ##### Criar as Tabelas no banco de Dados
 ```sh
 php artisan migrate
 ```
 
 
-##### 
+##### Popula as tabelas do Banco de Dados
 ```sh
 php artisan db:seed
 ```
 
 
-##### 
+##### Inicia o servidor embutido do PHP usado pelo Laravel
 ```sh
 php artisan serve
 ```
 
 
-##### 
-Acessar no broser: http://127.0.0.1:8000/
+##### Acessar no browser
+```sh
+http://127.0.0.1:8000
+```
 
 
 ## E-MAIL E SENHA PADRÃO
